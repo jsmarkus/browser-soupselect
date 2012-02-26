@@ -1,5 +1,5 @@
 {
-    "name": "soupselect",
+    "name": "browser-soupselect",
     "version": "0.2.0",
     "engines": {
         "node": ">=0.2.0"
@@ -15,7 +15,7 @@
         "nodeunit": ">= 0.3.0"
     },
     "repository" : [
-        { "type":"git", "url":"git://github.com/harryf/node-soupselect.git" }
+        { "type":"git", "url":"git://github.com/jsmarkus/node-soupselect.git" }
     ],
     "main": "./lib/soupselect",
     "license": "MIT",
