@@ -1,6 +1,6 @@
 {
     "name": "browser-soupselect",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "node": ">=0.2.0"
         },
@@ -9,15 +9,19 @@
         "email": "hfuecks@gmail.com",
         "url": "http://twitter.com/hfuecks"
         },
-    "url": "http://github.com/harryf/node-soupselect",
+    "contributors": [{
+        "name": "jsmarkus",
+        "email": "nixmrak@gmail.com",
+        "url": "http://twitter.com/jsmarkus"
+    }],
     "dependencies": {
         "htmlparser": ">= 1.6.2",
         "nodeunit": ">= 0.3.0"
     },
     "repository" : [
-        { "type":"git", "url":"git://github.com/jsmarkus/node-soupselect.git" }
+        { "type":"git", "url":"git://github.com/jsmarkus/browser-soupselect.git" }
     ],
     "main": "./lib/soupselect",
     "license": "MIT",
-    "description": "Adds CSS selector support to htmlparser for scraping activities - port of soupselect (python)"
+    "description": "Adds CSS selector support to htmlparser for scraping activities - port of soupselect (python). Browser package contains htmlparser and soupselect"
 }
